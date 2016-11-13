@@ -31,7 +31,7 @@ public class Candra {
 	}
 	
 	private void errorFound(Word error, int i) {
-		System.out.println("Kalimat ke-" + (i + 1) + " - <b>Apakah yang anda maksud<\b> \"" + error.getTrueWord() + "\"?" );
+		System.out.println("Kalimat ke-" + (i + 1) + " - Apakah yang anda maksud \"" + error.getTrueWord() + "\"?" );
 	}
 	
 	public void execute() {
